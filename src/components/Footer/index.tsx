@@ -41,38 +41,6 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Helpful Links */}
-        <div className="text-left">
-          <h3 className="text-2xl font-['Marcellus'] mb-6">Helpful Links</h3>
-          <div className="space-y-2 font-['Questrial']">
-            <Link to="/faq" className="block w-fit hover:text-gray-300">
-              <span className="border-b border-white inline-block">FAQ</span>
-            </Link>
-            <Link to="/blog" className="block w-fit hover:text-gray-300">
-              <span className="border-b border-white inline-block">Blog</span>
-            </Link>
-            <Link to="/news" className="block w-fit hover:text-gray-300">
-              <span className="border-b border-white inline-block">News and Updates</span>
-            </Link>
-          </div>
-        </div>
-
-        {/* Get Involved */}
-        <div className="text-left">
-          <h3 className="text-2xl font-['Marcellus'] mb-6">Get Involved</h3>
-          <div className="space-y-2 font-['Questrial']">
-            <Link to="/partnerships" className="block w-fit hover:text-gray-300">
-              <span className="border-b border-white inline-block">Partnerships</span>
-            </Link>
-            <Link to="/volunteer" className="block w-fit hover:text-gray-300">
-              <span className="border-b border-white inline-block">Volunteer Opportunities</span>
-            </Link>
-            <Link to="/careers" className="block w-fit hover:text-gray-300">
-              <span className="border-b border-white inline-block">Career Opportunities</span>
-            </Link>
-          </div>
-        </div>
-
         {/* Opening Hours */}
         <div className="text-left bg-black bg-opacity-30 p-6">
           <h3 className="text-2xl font-['Marcellus'] mb-6">Opening Hours</h3>
